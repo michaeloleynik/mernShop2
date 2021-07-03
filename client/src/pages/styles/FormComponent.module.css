@@ -1,0 +1,25 @@
+.Card {
+  padding: 2rem 1rem;
+}
+
+.firstBtn {
+  margin-right: 30px;
+}
+
+input.labelInput {
+  border-bottom: 1px solid #fff !important;
+  box-shadow: 0 1px 0 0 solid #fff !important;
+}
+
+input.labelInput+label {
+  color: #fff !important;
+}
+
+input.labelInput:focus {
+  border-bottom: 1px solid #bbdefb !important;
+  box-shadow: 0 1px 0 0 solid #bbdefb !important;
+}
+
+input.labelInput:focus + label {
+  color: 1px solid #bbdefb !important;
+}
